@@ -1,0 +1,31 @@
+﻿<Window
+xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+Title="LilyViewer" Height="500" Width="700" Background="#FF2F395E" MinWidth="250" MinHeight="250" >
+    <Grid Margin="0,0,0,0">
+        <Grid Height="36" VerticalAlignment="Top" Background="White" Margin="1,1,1.429,0" >
+            <Button x:Name="TwoPageButton" Height="32" Margin="0,2,189,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="32" ToolTipService.ToolTip="Two page" >
+                <Image x:Name="TwoPageButtonImage" Source="./Assets/singlepage.png" Margin="0,0,0,0"  />
+            </Button>
+            <Button x:Name="LeftButton" Height="32" Margin="0,2,152,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="32" ToolTipService.ToolTip="Go to the left page">
+                <Image x:Name="LeftButtonImage" Source="./Assets/left.png" Margin="0,0,0,0"  />
+            </Button>
+            <Button x:Name="RightButton" Height="32" Margin="0,2,115,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="32" ToolTipService.ToolTip="Go to the right page" >
+                <Image x:Name="RightButtonImage" Source="./Assets/right.png" Margin="0,0,0,0"  />
+            </Button>
+            <Button x:Name="UpToButton" Height="32" Margin="0,2,78,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="32" ToolTipService.ToolTip="Up to the parent folder" >
+                <Image x:Name="UpToButtonImage" Source="./Assets/up.png" Margin="0,0,0,0"  />
+            </Button>
+            <Button x:Name="OpenExplorerButton" Height="32" Margin="0,2,41,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="32" ToolTipService.ToolTip="Open by explorer" >
+                <Image x:Name="OpenExplorerImage" Source="./Assets/open.png" Margin="0,0,0,0"  />
+            </Button>
+            <Button x:Name="ConfigureButton" Height="32" Margin="0,2,4,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="32" ToolTipService.ToolTip="Configure" >
+                <Image x:Name="ConfigureButtonImage" Source="./Assets/config.png" Margin="0,0,0,0"  />
+            </Button>
+            <TextBlock x:Name="TitleText" Margin="10,10,225.857,2" Text="TextBlock" FontSize="14" ScrollViewer.VerticalScrollBarVisibility="Hidden" ScrollViewer.HorizontalScrollBarVisibility="Hidden"/>
+        </Grid>
+        <ScrollViewer x:Name="MainScroll" Margin="1,38,1,1" HorizontalScrollBarVisibility="Visible" VerticalScrollBarVisibility="Visible" RenderTransformOrigin="0.5,0.5" Background="White">
+            <Canvas x:Name="MainCanvas" RenderTransformOrigin="0.5,0.5"/>
+        </ScrollViewer>
+    </Grid>
+</Window>

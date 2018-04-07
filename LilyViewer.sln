@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "LilyViewer", "LilyViewer\LilyViewer.fsproj", "{8BBD0074-D44C-43F7-981B-E344BFE0833E}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "LilyViewerInstaller", "LilyViewerInstaller\LilyViewerInstaller.vdproj", "{6A771B34-50AC-4956-A50C-912921228C5D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BBD0074-D44C-43F7-981B-E344BFE0833E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BBD0074-D44C-43F7-981B-E344BFE0833E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BBD0074-D44C-43F7-981B-E344BFE0833E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BBD0074-D44C-43F7-981B-E344BFE0833E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A771B34-50AC-4956-A50C-912921228C5D}.Debug|Any CPU.ActiveCfg = Debug
+		{6A771B34-50AC-4956-A50C-912921228C5D}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5E7C3BA9-EDF9-4FBB-9309-194ECF9D71A6}
+	EndGlobalSection
+EndGlobal
